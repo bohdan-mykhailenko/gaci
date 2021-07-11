@@ -72,7 +72,6 @@ document.querySelector("#inf__exit").addEventListener('click', (event) => {
   document.querySelector(".virus__wrapper").classList.remove("active");
   document.querySelector(".inf-form").style = "display: none";
   document.querySelector(".header__logo").style = "position: static; width: 550px";
-  document.querySelector(".header__menu").style = "display: flex";
   document.querySelector(".header").style = "margin-top: 0";
 });
 
